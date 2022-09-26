@@ -13,7 +13,7 @@ createdBy.innerHTML = createdBy.innerHTML + " Mateo Carlos";
 // Agregar dos propiedades a la clase:
 // 1) 'description' : debe ser igual a la descripción pasada como parámetro al constructor
 // 2) 'complete'    : debe setearse en false
-// Ayuda: usar 'this' en el constructor
+// Ayuda: usar 'this' en el constructor;
 
 function ToDo(description) {
   // Tu código acá:
