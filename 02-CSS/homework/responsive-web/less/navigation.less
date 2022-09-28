@@ -1,1 +1,37 @@
 // Código de Nav acá
+.principal{
+    text-align: center;
+    font-size: 50px;
+}
+
+.cabecera{
+    background: @nav-bg;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    ul{
+        li{
+            display: inline-block;
+            font-size: 15px;
+            a{
+                display: block;
+                padding: 10px;
+                transition: all 0.4s linear;
+                border-radius: 5px;
+            }
+            a:hover{
+                background: red;
+                color: white;
+            }
+        }
+        @media @phone{
+            width: 100%;
+        }
+    }
+}
